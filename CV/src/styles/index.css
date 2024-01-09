@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+* {
+    font-family: 'Comic Neue', cursive;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: black 1px solid;
+    margin: 10px;
+    scroll-behavior: auto;
+}
+
+.resumeInfo, .resumeSection {
+    align-items: start;
+    justify-content: start;
+    align-self: flex-start;
+
+}
+
+section {
+    align-items: baseline;
+    justify-content: start;
+    justify-content: start;
+}
+
+h3, h4, h5 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.workInfo div {
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    margin-right: 10px;
+}
+
+.workInfo h4 {
+    margin: 0px;
+}
+
+.inputs {
+    flex-direction: column;
+    margin-right: 2.5px;
+}
+
+.inputs div {
+    margin-top: 10px;
+    margin-bottom: 2.5px
+}
+
+textarea {
+    padding: 0px;
+}
+
+button {
+    margin-right: 2.5px;
+    margin-top: 2.5px;
+}
+
+#textArea label {
+    display: grid;
+}
+
+#first {
+    display: grid;
+    justify-content: start;
+    justify-items: center;
+    align-items: center;
+}
+
+#first h3 {
+    margin: 0px;
+}
+
+#second {
+    display: grid;
+    justify-content: start;
+    justify-items: start;
+    align-items: center;
+}
+
