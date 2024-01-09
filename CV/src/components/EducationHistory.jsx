@@ -39,7 +39,7 @@ export function EducationHistory({ educationHistory, handleEducationRecordChange
             type='date'
             label=' End Date: '
             name='end'
-            value={record.start}
+            value={record.end}
             onChange={(e) => handleEducationRecordChange(record.id, e)}
             />
         </section>
